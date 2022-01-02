@@ -1,8 +1,8 @@
 # machine-learning-and-statistics-project-winter-21-22
 
-**Project Title
+## Project Title
 
-***Machine Learning and Statistics Assignment
+### Machine Learning and Statistics Assignment
 
 For the HDip. in Science in Computing (Data Analytics) 2021-2022 at GMIT, I am required to submit a project on Machine Learning and Statistics as per the Python Programming Language.
 
@@ -13,7 +13,7 @@ https://www.w3schools.com/python/python_ml_getting_started.asp
 ## Description
 This repository contains Jupyter notebooks and other relevant files demonstrating my work on the Python packages ‘scikit-learn’ and ‘sciPy-stats’ for the modules Machine Learning and Statistics.
 
-***The Scikit-learn Jupyter Notebook
+#### The Scikit-learn Jupyter Notebook
 
 The Scikit-learn Jupyter Notebook includes a file called scikit-learn.ipynb that contains:
 
@@ -25,7 +25,7 @@ The Scikit-learn Jupyter Notebook includes a file called scikit-learn.ipynb that
 	Scikit-learn algorithms on Regression include Linear regression, Ridge regression, and Lasso regression.
 	Scikit-learn algorithms on Clustering encompass, The Mean-shift, Spectral clustering, K-Means, Hierarchical clustering, and Agglomerative clustering.
  
-***The Scipy Stats Jupyter Notebook
+#### The Scipy Stats Jupyter Notebook
 
 The Scipy Stats Jupyter Notebook includes a Jupyter notebook called scipy-stats.ipynb that encompasses the following:
 
