@@ -1,4 +1,7 @@
 # machine-learning-and-statistics-project-winter-21-22
+![scipyshiny_small](https://user-images.githubusercontent.com/60227439/147887960-d90daf7c-c330-4674-a8f7-7bb5e1939e6d.png)
+
+![scikit-learn-logo-small](https://user-images.githubusercontent.com/60227439/147887966-a7226630-a2ad-4a01-b938-5e4ac3e524aa.png)
 
 ## Project Title
 
@@ -50,8 +53,49 @@ Here is how to run the project notebooks:
 
 Have a look at the 2 notebooks in this repository in Jupyter. 
 Some interesting aspects:
-The notebook scipy-stats.ipynb has various plot types as examples. You can edit the parameters of the plots to see different effects.
+The notebook scipy-learn.ipynb has various plot types as examples. You can edit the parameters of the plots to see different effects.
+
+Find a script for Ridge Regression below:
+
+Set up (this is a comment and # must be placed in front it).
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn import linear_model
+
+X is the 10x10 Hilbert matrix (this is a comment and # must be placed in front it).
+X = 1.0 / (np.arange(1, 11) + np.arange(0, 10)[:, np.newaxis])
+y = np.ones(10)
+
+Compute paths (this is a comment and # must be placed in front it).
+n_alphas = 200
+alphas = np.logspace(-10, -2, n_alphas)
+coefs = []
+for a in alphas:
+    ridge = linear_model.Ridge(alpha=a, fit_intercept=False)
+    ridge.fit(X, y)
+    coefs.append(ridge.coef_)
+
+Display results (this is a comment and # must be placed in front it).
+
+ax = plt.gca()
+ax.plot(alphas, coefs)
+ax.set_xscale("log")
+
+Reverse axis (this is a comment and # must be placed in front it).
+
+ax.set_xlim(ax.get_xlim()[::-1])
+plt.xlabel("alpha")
+plt.ylabel("weights")
+plt.title("Ridge coefficients as a function of the regularization")
+plt.axis("tight")
+plt.show(
+
+When you run the above code an output of Ridge Regression plot will be displayed. Ridge Regression is used as the estimator in the above code output. Each color represents a distinctive feature of the coefficient vector and this is shown as a function of the regularisation characteristic (scikit-learn.org). 
 
 ## Credits
-                                                
-I have used extensive online sources to build-up this repository. References including in each Jupyter Notebook are useful and can be consulted if there is a need to go further on Machine Learning and Statistics, particularly with Scikit-Learn and SciPy-Stats.
+                                              
+I used extensive online sources to build-up this repository. References including in each Jupyter Notebook are useful and can be consulted if there is a need to go further on Machine Learning and Statistics, particularly with Scikit-Learn and SciPy-Stats. I have also used Laerd Statistics (SPSS) for Assumptions on scipy-stats.ipynb program, especially on an example hypothesis test using ANOVA part. Their link address: https://statistics.laerd.com/spss-tutorials/one-way-anova-using-spss-statistics.php. You can also access https://statistics.laerd.com/ for SPSS Statistics Tutorials and Statistical Guides.
+
+
+
+
