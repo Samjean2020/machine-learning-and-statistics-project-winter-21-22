@@ -1,0 +1,11 @@
+A requirements.txt file
+Requirements to run this project are as follows:
+* Set for a good Python 3 environment and its various libraries mainly Scikit-learn and SciPy-Stats downloaded from Anaconda 3. 
+* Use Jupyter Notebook text-editor to run all the programs (scikit-learn.ipynb and scipy-stats.ipynb). Make sure the Kernel of the Jupyter Notebook is ready when running the programs. You can also run the program on command line on Cmder (Console Emulator) and VSC (Visual Studio Code) console, code, and text editors. Note that both programs, scikit-learn.ipynb and on scipy-stats.ipynb are written under Windows OS (Operation Systems).
+* Download the dataset wine.data or access csv URL for data manipulation and data visualisation using scikit-learn algorithms that is available at: UCI Machine Learning Repository: Wine Data Set and (https://gist.githubusercontent.com/tijptjik/9408623/raw/b237fa5848349a14a14e5d4107dc7897c21951f5/wine.csv). I have used the later link to access a wine.csv file. 
+* Download the dataset breast-cancer-wisconvin.data or access URL for data manipulation and data visualisation using sciPy-stats operations that is available at: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29 and https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data. I have used the later link to enable pandas library to read the data set .csv file using the DataFrame() function.
+* Regarding images included in both Jupyter Notebooks, they are obtained online and available at  UCI Machine Learning Repository: Wine Data Set   for the Wine Data Set, and 
+https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29  for the Breast Cancer Wisconsin Diagnostics Data Set. 
+* Logos are available online at https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png for scikit-Learn, and https://docs.scipy.org/doc/scipy/_static/scipyshiny_small.png for sciPy-stats.
+
+* The end
