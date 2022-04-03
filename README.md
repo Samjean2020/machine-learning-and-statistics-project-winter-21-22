@@ -7,7 +7,7 @@
 
 ### Machine Learning and Statistics Assignment
 
-For the HDip. in Science in Computing (Data Analytics) 2021-2022 at GMIT, I am required to submit a project on Machine Learning and Statistics as per the Python Programming Language.
+For the purpose of HDip. in Science in Computing (Data Analytics) 2021-2022 at GMIT, I am required to submit a project on Machine Learning and Statistics as per the Python Programming Language.
 
 Machine Learning makes the computer learn from studying data and statistics. It is a step towards artificial intelligence (AI).  It entails a program that analyses and learns to predict the outcome (w3schools.com).
 
