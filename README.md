@@ -94,7 +94,7 @@ When you run the above code an output of Ridge Regression plot will be displayed
 
 ## Credits
                                               
-I used extensive online sources to build-up this repository. References including in each Jupyter Notebook are useful and can be consulted if there is a need to go further on Machine Learning and Statistics, particularly with Scikit-Learn and SciPy-Stats. I have also used Laerd Statistics (SPSS) for Assumptions on scipy-stats.ipynb program, especially on an example hypothesis test using ANOVA part. Their link address: https://statistics.laerd.com/spss-tutorials/one-way-anova-using-spss-statistics.php. You can also access https://statistics.laerd.com/ for SPSS Statistics Tutorials and Statistical Guides.
+I used extensive online sources to build-up this repository. References included in each Jupyter Notebook are useful and can be consulted if there is a need to go further on Machine Learning and Statistics, particularly with Scikit-Learn and SciPy-Stats. I have also used Laerd Statistics (SPSS) for Assumptions on scipy-stats.ipynb program, especially on an example hypothesis test using the ANOVA part. Their link address is: https://statistics.laerd.com/spss-tutorials/one-way-anova-using-spss-statistics.php. You can also access SPSS Statistics Tutorials and Statistical Guides via the following link: https://statistics.laerd.com/.
 
 
 
